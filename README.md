@@ -99,7 +99,7 @@ graph TD
 1. Para levantar las tres máquinas virtuales con Debian ejecuta el comando:
 
 ```bash
- vagrant up
+vagrant up
 ```
 
 2. Agrega una entrada DNS estática en el hosts 
