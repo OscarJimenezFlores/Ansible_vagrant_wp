@@ -1,0 +1,9 @@
+- hosts:  # Define los grupos de máquinas virtuales a los que se aplicará este bloque
+    - wordpress  # Grupo de máquinas virtuales llamado "wordpress"
+    - mysql      # Grupo de máquinas virtuales llamado "mysql"
+  become: yes     # Activa el modo "become", permitiendo ejecutar tareas con privilegios de superusuario
+  remote_user: ansiblewordpress  # Establece el usuario remoto utilizado para la conexión (ansiblewordpress)
+  roles:  # Especifica las funciones o roles de Ansible que se aplicarán en estas máquinas virtuales
+    - initialConfig  # Rol "initialConfig" que realiza configuraciones iniciales comunes
+    - mysql          # Rol "mysql" para configurar el servidor de base de datos MySQL
+    - wordpress      # Rol "wordpress" para instalar y configurar Wordpress

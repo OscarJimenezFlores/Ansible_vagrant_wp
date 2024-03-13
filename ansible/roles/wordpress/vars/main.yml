@@ -1,0 +1,6 @@
+---
+# Archivo de variables para WordPress
+WP_FOLDER: "/var/www/wordpress-local"   # Ruta del directorio de instalación de WordPress
+WP_URL: "www.wordpress.local"           # URL de acceso a WordPress
+WP_DOMAIN: "wordpress.local"            # Dominio asociado a WordPress
+VH_FILENAME: "wordpress-local"          # Nombre del archivo de configuración del servidor virtual para WordPress

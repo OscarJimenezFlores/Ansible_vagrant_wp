@@ -1,0 +1,5 @@
+---
+# Archivo de variables para MySQL
+DB_WP_NAME: wordpress          # Nombre de la base de datos para WordPress
+DB_WP_USERNAME: wordpress      # Nombre de usuario para acceder a la base de datos de WordPress
+DB_WP_PASSWORD: wordpress      # Contraseña asociada al usuario de la base de datos de WordPress
